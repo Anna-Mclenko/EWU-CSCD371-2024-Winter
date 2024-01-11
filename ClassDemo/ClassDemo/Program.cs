@@ -1,9 +1,12 @@
 ﻿namespace ClassDemo;
 
-internal class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        "1".ToString();
+        1.ToString();
+        Console.WriteLine(1.GetType());
     }
 }
